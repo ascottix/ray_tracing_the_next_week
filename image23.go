@@ -64,7 +64,7 @@ func Image23(w io.Writer) {
 	cam.SetLookAt(NewPoint3(278, 278, 0))
 	cam.SetVerticalFieldOfView(40)
 	cam.SetBackground(NewColor(0, 0, 0))
-	cam.SetRenderingParams(10000, 40)
+	cam.SetRenderingParams(250, 4) // Image in the book uses 10000, 40
 
 	cam.Render(w, world)
 }

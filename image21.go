@@ -20,7 +20,7 @@ func Image21(w io.Writer) {
 	cam.SetLookAt(NewPoint3(278, 278, 0))
 	cam.SetVerticalFieldOfView(40)
 	cam.SetBackground(NewColor(0, 0, 0))
-	cam.SetRenderingParams(100, 10)
+	cam.SetRenderingParams(200, 50)
 
 	cam.Render(w, world)
 }
